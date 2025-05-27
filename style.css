@@ -1,0 +1,32 @@
+body{
+    background-color:lightseagreen ;
+    color: aquamarine;
+}
+h1{
+    color: black;
+}
+pre{
+    color: blue;
+}
+h3{
+    color: black;
+}
+h2{
+    color: red;
+}
+label{
+    color: brown;
+}
+header{
+    background-color: aqua;
+}
+footer{
+    background-color: aquamarine;
+}
+button{
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+th{
+    color: yellow;
+}
