@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-footer{
-    background-color:rgb(9, 37, 23);
-}
 body{
-    color: rgb(86, 16, 225);
-    background-color:  rgb(75, 180, 86);
+     color:rgb(86, 16, 225);
+     background-color:rgb(75, 180, 86) 100vh;
+      background:linear-gradient(90deg,rgb(252, 218, 157),rgb(162, 162, 250),rgb(151, 247, 151));
+
 }
 button{
     background-color: rgba(54, 3, 60, 0.135);
@@ -57,4 +56,26 @@ table{
     font-weight:500;
     font-style: oblique;
 }
-
+.right{
+    display: flex;
+    position: fixed;
+    right: 50px ;
+    top: 50px;
+}
+.what{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+header>img{
+    animation: bounce 0.1s ease alternate infinite;
+    margin: 50px 10px;
+}
+@keyframes bounce{
+    from{
+        transform:translateY(0px)
+    }
+    to{
+        transform:translateY(-5px)
+    }
+}
